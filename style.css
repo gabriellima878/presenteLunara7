@@ -335,8 +335,8 @@ html, body {
 /* Lua */
 .moon {
   position: absolute;
-  top: 50px;
-  left: 25%; /* Ajuste conforme a posição desejada */
+  top: 36px;
+  left: 12.5%; /* Ajuste conforme a posição desejada */
   width: 120px;
   height: 120px;
   background: radial-gradient(circle at 30% 30%, #fdf6d1, #e5d075 80%); /* Tom original */
