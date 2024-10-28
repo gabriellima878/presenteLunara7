@@ -332,16 +332,21 @@ html, body {
 }
 
 
+/* Lua */
 .moon {
   position: absolute;
-  top: 2vh; /* Ajuste para mover a lua mais para o topo da tela */
-  left: 5vw; /* Ajuste para mover a lua mais para o canto esquerdo */
-  width: 15vw; /* Tornar a lua um pouco menor para caber melhor na tela */
-  height: 15vw;
-  background: radial-gradient(circle at 30% 30%, #fdf6d1, #e5d075 80%);
+  top: 36px;
+  left: 12%; /* Ajuste conforme a posição desejada */
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #fdf6d1, #e5d075 80%); /* Tom original */
   border-radius: 50%;
-  box-shadow: 0 0 4vw rgba(240, 230, 140, 0.3), 0 0 7vw rgba(240, 230, 140, 0.2);
+
+  /* Brilho suave ao redor da lua */
+  box-shadow: 0 0 40px rgba(240, 230, 140, 0.3), 0 0 70px rgba(240, 230, 140, 0.2);
   overflow: hidden; /* Para cortar a sombra */
+
+  /* Adicionando a animação de brilho */
   animation: moon-glow 3s ease-in-out infinite;
 }
 
