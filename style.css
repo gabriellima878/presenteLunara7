@@ -336,10 +336,10 @@ html, body {
 .moon {
   position: absolute;
   top: 36px;
-  left: 12%; /* Ajuste conforme a posição desejada */
+  left: 12%; 
   width: 120px;
   height: 120px;
-  background: radial-gradient(circle at 30% 30%, #fdf6d1, #e5d075 80%); /* Tom original */
+  background: radial-gradient(circle at 30% 30%, #fdf6d1, #e5d075 80%); 
   border-radius: 50%;
 
   /* Brilho suave ao redor da lua */
@@ -356,7 +356,7 @@ html, body {
   content: '';
   position: absolute;
   top: -10px;
-  right: -25px; /* Ajuste para definir o tamanho da "sombra" */
+  right: -25px; 
   width: 120px;
   height: 120px;
   background-color: #122139; /* Cor da sombra escura */
@@ -389,12 +389,9 @@ html, body {
   }
 }
 
-
-
-
 .text-overlay {
   position: absolute;
-  bottom: -64px; /* Centralizado verticalmente */
+  bottom: -64px; 
   left: 50%;
   transform: translateX(-50%);
   font-size: 28px;
@@ -427,9 +424,6 @@ html, body {
       0 0 18px rgba(139, 0, 0, 0.3);
   }
 }
-
-
-
 
 
 @-webkit-keyframes $animationName {
